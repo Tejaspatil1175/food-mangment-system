@@ -5,7 +5,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 
 export default function ConsumersPage() {
   return (
-    <div className="min-h-screen bg-background">
+    <div className="bg-background">
       <header className="bg-gradient-to-r from-yellow-500 to-yellow-300 text-white py-20 text-center px-4">
         <h1 className="text-4xl md:text-5xl font-bold mb-4 leading-tight">For Consumers</h1>
         <p className="text-lg md:text-xl max-w-2xl mx-auto mb-8">Access fresh, local produce and contribute to a sustainable food system</p>
@@ -62,7 +62,7 @@ export default function ConsumersPage() {
                 <CardTitle>3. Enjoy</CardTitle>
               </CardHeader>
               <CardContent>
-                <p>Receive your fresh produce and enjoy knowing you're supporting local farmers and reducing food waste.</p>
+                <p>Receive your fresh produce and enjoy knowing you&apos;re supporting local farmers and reducing food waste.</p>
               </CardContent>
             </Card>
           </div>
@@ -76,12 +76,6 @@ export default function ConsumersPage() {
           </Button>
         </section>
       </main>
-
-      <footer className="bg-gray-800 text-white py-12 px-4 mt-20">
-        <div className="container mx-auto text-center">
-          <p>&copy; 2023 Food Security Platform. All rights reserved.</p>
-        </div>
-      </footer>
     </div>
   )
 }
